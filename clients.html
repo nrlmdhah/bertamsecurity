@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>BertamSecurity - Clients</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/bertam.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+  </head>
+
+<body>
+
+  <div class="loader">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       width="34px" height="40px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+      <rect x="0" y="10" width="4" height="10" fill="#333" opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="8" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.15s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+      <rect x="16" y="10" width="4" height="10" fill="#333"  opacity="0.2">
+        <animate attributeName="opacity" attributeType="XML" values="0.2; 1; .2" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="height" attributeType="XML" values="10; 20; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+        <animate attributeName="y" attributeType="XML" values="10; 5; 10" begin="0.3s" dur="0.8s" repeatCount="indefinite" />
+      </rect>
+    </svg>
+  </div>
+
+  <header id="#top">
+
+      <nav class="main-navigation navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/bertam.png" alt="Logo" style="width: 80px; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="index.html">Homepage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="clients.html">Clients</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
+
+    </header>
+
+    <div class="page-banner change-name">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="header-text">
+                        <h2><em>List</em>of Clients</h2>
+                        <p>We are proud to have worked with a diverse range of clients, delivering exceptional design solutions that meet their unique needs and exceed their expectations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+  .toggle-list {
+    max-height: 180px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+  }
+  .toggle-list.expanded {
+    max-height: 1000px;
+  }
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #06032e;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+</style>
+
+<section class="clients-wall py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="display-5 fw-bold gradient-text">Trusted by Over 130 Esteemed Clients</h2>
+      <p class="text-muted fs-5">We proudly serve a wide array of clients from government institutions to corporations, developers, manufacturers, and retailers across Malaysia.</p>
+    </div>
+
+    <!-- Infographic Style Grid -->
+    <div class="row g-4">
+
+      <!-- Government & Public Sector -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="p-4 bg-white rounded-4 shadow h-100">
+          <h5 class="text-primary fw-bold mb-3"><i class="bi bi-bank me-2"></i>Government</h5>
+          <ol class="small mb-0 toggle-list" id="gov-list">
+            <li>Kementerian Pendidikan Malaysia</li>
+            <li>Majlis Agama Islam WP</li>
+            <li>Kementerian Belia & Sukan</li>
+            <li>Majlis Amanah Rakyat (MARA)</li>
+            <li>Dewan Bandaraya Kuala Lumpur</li>
+            <li>Jabatan Pelajaran & JKR</li>
+            <li>GIATMARA (various branches)</li>
+            <li>Perbadanan & Persatuan Penduduk</li>
+            <li>Jabatan Pelajaran Sabah & Sarawak</li>
+            <li>Institut Kemahiran Baitulmal</li>
+            <li>IKTBN & Tadika Islam Sumayyah</li>
+          </ol>
+          <button class="toggle-btn" onclick="toggleList('gov-list', this)">Show more</button>
+        </div>
+      </div>
+
+      <!-- Property & Development -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="p-4 bg-white rounded-4 shadow h-100">
+          <h5 class="text-success fw-bold mb-3"><i class="bi bi-building me-2"></i>Property & Development</h5>
+          <ol class="small mb-0 toggle-list" id="prop-list">
+            <li>Hillpark Resources</li>
+            <li>Temasya Mentari</li>
+            <li>Bertam Properties</li>
+            <li>Kinta & LLN Properties, Ipoh</li>
+            <li>Genting View Resort & Apartments</li>
+            <li>Cheras Plaza & Leisure Mall</li>
+            <li>Menara Paragon & Solstice</li>
+            <li>Scanwolf Development</li>
+            <li>Zeva JMB</li>
+            <li>Meranti Apartment</li>
+            <li>Paragon Tower & Ikhasas ITech</li>
+          </ol>
+          <button class="toggle-btn" onclick="toggleList('prop-list', this)">Show more</button>
+        </div>
+      </div>
+
+      <!-- Corporate & Manufacturing -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="p-4 bg-white rounded-4 shadow h-100">
+          <h5 class="text-dark fw-bold mb-3"><i class="bi bi-gear me-2"></i>Corporate & Manufacturing</h5>
+          <ol class="small mb-0 toggle-list" id="corp-list">
+            <li>Panasonic Malaysia</li>
+            <li>Nippon Paint</li>
+            <li>FSM Technologies</li>
+            <li>Ghim Li Fashion</li>
+            <li>Hexstar Chemicals</li>
+            <li>Broad World Precision</li>
+            <li>Union Sangyo</li>
+            <li>Atlas Vending</li>
+            <li>Angkasa Asiatic</li>
+            <li>Starton Industrial</li>
+            <li>Linear Mould Manufacturing</li>
+            <li>Marque Precision Technology</li>
+            <li>Morrissey Assembly Solution</li>
+            <li>Lucky Frozen Johor</li>
+            <li>LH Lighting & Automation</li>
+            <li>Hextar Chemicals</li>
+            <li>EV Bus</li>
+            <li>Acotec</li>
+            <li>Yit You Construction</li>
+          </ol>
+          <button class="toggle-btn" onclick="toggleList('corp-list', this)">Show more</button>
+        </div>
+      </div>
+
+      <!-- Retail, Hospitality & Services -->
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="p-4 bg-white rounded-4 shadow h-100">
+          <h5 class="text-warning fw-bold mb-3"><i class="bi bi-shop-window me-2"></i>Retail, Hospitality & Services</h5>
+          <ol class="small mb-0 toggle-list" id="retail-list">
+            <li>Beryl's Chocolate Kingdom</li>
+            <li>Suen Jewellers</li>
+            <li>Caprio Food & Beverages</li>
+            <li>Shangri-La Hotel</li>
+            <li>Smooth Routes</li>
+            <li>Golden State Resources</li>
+            <li>MEACS Construction</li>
+            <li>PLM Interior</li>
+            <li>Yew's Cafe</li>
+            <li>Grand Far East Hotel</li>
+            <li>Blue Bros E&C</li>
+            <li>Hock Wan Transport</li>
+            <li>Leika Genting Highlands</li>
+          </ol>
+          <button class="toggle-btn" onclick="toggleList('retail-list', this)">Show more</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleList(id, btn) {
+    const list = document.getElementById(id);
+    list.classList.toggle("expanded");
+    btn.innerText = list.classList.contains("expanded") ? "Show less" : "Show more";
+  }
+</script>
+    
+
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h2>Future-Proofing Your Safety</h2>
+                </div>
+                    </div> 
+                </div> 
+            </div>  
+        </div> 
+    </section>
+
+    <footer class="no-margin-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-widget">
+                        <img src="assets/images/bertam.png" alt="Logo" style="width: 80px; height: auto;">
+                        <p>Bertam Security Services Sdn Bhd is a leading security service provider in Malaysia, dedicated to ensuring the safety and security of our clients through professional guarding, patrol, investigation, and advisory services.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-2">
+                    <div class="location-widget">
+                        <h4>Our Location</h4>
+                        <p>No 75 – 2, Jalan SBC 1, <br><br>Taman Sri Batu Caves, <br>68100 Batu Caves, Selangor</p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="customer-care">
+                        <h4>Customer Care</h4>
+                        <ul class="info">
+                            <li><a href="#">03-61855803</a></li>
+                            <li><a href="#">bertamsecsb@yahoo.com.my</a></li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                </div>
+                 <div class="text-center pt-4 pb-3">
+                 <small class="text-muted">Copyright © 2025 Bertam Security Services Sdn Bhd. All Rights Reserved.</small>
+                 </div>
+                </div>
+                    <div class="col-lg-6">
+                        <a href="#top" class="scroll-to-top">
+                            Go to Top
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-up" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+        setTimeout(function(){
+            $('.loader').fadeToggle();
+        }, 2000);
+		
+		$("a[href='#top']").click(function() {
+        	$("html, body").animate({ scrollTop: 0 }, "slow");
+        	return false;
+        });
+        
+        var elem = document.querySelector('.grid');
+            var iso = new Isotope( elem, {
+            // options
+            itemSelector: '.grid-item',
+            layoutMode: 'masonry'
+        });
+        
+        imagesLoaded( document.querySelector('.grid'), function( instance ) {
+            var iso = new Isotope( '.grid', {
+                itemSelector: '.grid-item',
+            });
+        });
+    </script>
+
+</body>
+</html>
